@@ -13,13 +13,11 @@
 # reverseString("racecar") should return "racecar".
 #
 # reverseString(" A B C ") should return " C B A ".
-from operator import index
-
 def reverseString(words):
     if len(words) == 0:
         return words
     return reverseString(words[1:]) + words[0]
 
-print(reverseString("hello"))
+print(reverseString("B M O "))
 
 
