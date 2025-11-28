@@ -1,0 +1,15 @@
+Challenge #3: Vowel Counter
+
+Description: Given a string, return the count of vowels (a, e, i, o, u) present in the string. The function should be case-insensitive (count both uppercase and lowercase vowels).
+
+Tests:
+
+countVowels("hello") should return 2.
+
+countVowels("why") should return 0.
+
+countVowels("AEIOU") should return 5.
+
+countVowels("JavaScript") should return 3.
+
+countVowels("The weather is nice today") should return 9.

@@ -1,0 +1,15 @@
+Challenge #5: Title Case a Sentence
+
+Description: Given a string, return the string with the first letter of each word capitalized and the rest of the letters in lowercase.
+
+Tests:
+
+titleCase("I'm a little tea pot") should return "I'm A Little Tea Pot".
+
+titleCase("sHoRt AnD sToUt") should return "Short And Stout".
+
+titleCase("HERE IS MY HANDLE") should return "Here Is My Handle".
+
+titleCase("here is my spout") should return "Here Is My Spout".
+
+titleCase("python") should return "Python".
