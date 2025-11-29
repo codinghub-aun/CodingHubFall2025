@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Simple Quiz App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+        body{display:flex;min-height:100vh;align-items:center;justify-content:center;background:#f3f4f6}
+        .card{background:#ffffff;padding:20px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.08);width:100%;max-width:560px}
+        h1{font-size:18px;margin:0 0 12px}
+        .question{font-weight:600;margin:12px 0}
+        button{padding:8px 12px;font-size:14px}
+    </style>
+</head>
+<body>
+    <div class="card" id="app">
+        <h1>Quiz</h1>
+        <div class="progress" id="progress">Question 1 / 5</div>
+
+        <div id="quiz">
+            <div class="question" id="questionText"></div>
+            <ul class="choices" id="choices"></ul>
+            <div class="controls">
+                <button id="prevBtn">Prev</button>
+                <div style="flex:1"></div>
+                <button id="nextBtn">Next</button>
+            </div>
+        </div>
+</div>
